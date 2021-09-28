@@ -1,5 +1,4 @@
 data_tsv: psss-data.tsv
-bucket: psss-metagenomics-codeathon-data
 name: nmdc:mga0ke75
 
 # anything in 'files' will be downloaded
