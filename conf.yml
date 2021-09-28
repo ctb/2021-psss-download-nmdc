@@ -1,7 +1,8 @@
+data_tsv: psss-data.tsv
 bucket: psss-metagenomics-codeathon-data
 name: nmdc:mga0ke75
-directory: gut
 
+# anything in 'files' will be downloaded
 files:
 - activity.json
 - MAGs/activity.json
@@ -9,7 +10,9 @@ files:
 - MAGs/{prefix}_bins.lowDepth.fa
 - MAGs/{prefix}_bins.lowDepth.fa.md5
 - MAGs/{prefix}_bins.tooShort.fa
-files2:
+
+# this is ignored, but it's a convenient place to stash stuff.
+no_files:
 - MAGs/{prefix}_bins.tooShort.fa.md5
 - MAGs/{prefix}_bins.unbinned.fa
 - MAGs/{prefix}_bins.unbinned.fa.md5
